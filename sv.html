@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Truth or Dare</h1>
+            <div class="drawcircle">
+                <div class="arrowimg">
+                    <img src="arrow.png" id="arrow" alt="">
+                 </div>   
+            </div>
+              <div class="button">
+                  <button id="btn" onclick="spin()">spin</button>
+              </div>
+              <div class="hidcontainer hidden" id="hid">
+                  <p id="par">Player pointed by arrow has to select "truth" or "dare"
+                  </p>
+                  <button id="r" onclick="rev()">close</button>
+              </div>
+         </div>
+        <script src="spin.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery3.5.1/jquery.min.js"></script>
+    </body>
+</html>
